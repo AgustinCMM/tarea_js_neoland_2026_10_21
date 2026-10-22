@@ -28,3 +28,7 @@ El proyecto usa HTML5, CSS3 y JavaScript vanilla. No requiere instalar paquetes 
 Para resolver un ejercicio, edita únicamente su `js/script.js` y, si hace falta mostrar una salida, usa el área de resultados preparada en su HTML. Los ejercicios cuya consigna pide salida por consola muestran “(ver en consola)”. Abre las herramientas de desarrollador del navegador y selecciona la pestaña Consola para consultar esa salida.
 
 Los scripts de ejercicio se cargan al final del `body` y son independientes. El proyecto no usa frameworks, bibliotecas externas, gestores de paquetes, compilación, base de datos ni backend.
+
+## Cambiar el estado de un ejercicio
+
+En la página de cada ejercicio, usa el botón **Marcar como resuelto** o **Marcar como pendiente**. El estado se guarda en el almacenamiento local del navegador y se refleja automáticamente en la tarjeta del ejercicio en `index.html`. No hace falta editar el HTML ni el JavaScript del ejercicio. El estado se conserva en ese navegador para este proyecto.
